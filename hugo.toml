@@ -1,0 +1,26 @@
+baseURL = "https://publicsite2-80183.web.app"
+languageCode = "en-us"
+title = "Tech by J.R."
+theme = "PaperMod"
+
+# Set the language to US English
+defaultContentLanguage = "en"
+# Show last modification date in articles
+enableGitInfo = true
+
+# Configuration for PaperMod
+[params]
+    env = "production"
+    title = "Tech by J.R."
+    description = "An IT blog covering programming, system administration, and network security."
+    keywords = ["IT", "blog", "programming", "system administration", "networking", "technology"]
+    defaultTheme = "auto" # "light" or "dark"
+    # Optional: Set a logo or avatar for the homepage
+    [params.homeInfoParams]
+        Title = "Hello everyone and welcome! 👋"
+        Content = "Welcome to Tech by J.R., where I share insights on programming, system administration, and all things IT. My goal is to help you navigate the ever-evolving world of technology. Happy reading!"
+
+[params.socialIcons]
+#    github = "https://github.com/yourusername"
+#    linkedin = "https://linkedin.com/in/yourusername"
+#    twitter = "https://twitter.com/yourusername"
