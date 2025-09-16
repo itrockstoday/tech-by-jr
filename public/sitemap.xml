@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/getting-started-today-2/</loc>
+    <loc>https://publicsite2-80183.web.app/posts/getting-started-today-2/</loc>
     <lastmod>2025-09-16T04:07:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://publicsite2-80183.web.app/posts/</loc>
     <lastmod>2025-09-16T04:07:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://publicsite2-80183.web.app/</loc>
     <lastmod>2025-09-16T04:07:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/getting-started-today/</loc>
+    <loc>https://publicsite2-80183.web.app/posts/getting-started-today/</loc>
     <lastmod>2025-09-16T03:32:22+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://publicsite2-80183.web.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://publicsite2-80183.web.app/tags/</loc>
   </url>
 </urlset>

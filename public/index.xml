@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech by J.R.</title>
-    <link>http://localhost:1313/</link>
+    <link>https://publicsite2-80183.web.app/</link>
     <description>Recent content on Tech by J.R.</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 16 Sep 2025 04:07:59 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://publicsite2-80183.web.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting started today 2</title>
-      <link>http://localhost:1313/posts/getting-started-today-2/</link>
+      <link>https://publicsite2-80183.web.app/posts/getting-started-today-2/</link>
       <pubDate>Tue, 16 Sep 2025 04:06:08 +0000</pubDate>
-      <guid>http://localhost:1313/posts/getting-started-today-2/</guid>
+      <guid>https://publicsite2-80183.web.app/posts/getting-started-today-2/</guid>
       <description>&lt;p&gt;testing 2&lt;/p&gt;</description>
     </item>
     <item>
       <title>Getting Started Today</title>
-      <link>http://localhost:1313/posts/getting-started-today/</link>
+      <link>https://publicsite2-80183.web.app/posts/getting-started-today/</link>
       <pubDate>Tue, 16 Sep 2025 03:25:34 +0000</pubDate>
-      <guid>http://localhost:1313/posts/getting-started-today/</guid>
+      <guid>https://publicsite2-80183.web.app/posts/getting-started-today/</guid>
       <description>&lt;p&gt;Testing markdown&lt;/p&gt;</description>
     </item>
   </channel>
