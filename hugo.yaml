@@ -1,4 +1,4 @@
-baseURL: "https://publicsite2-80183.web.app/" # IMPORTANT: Change this to your final website URL
+baseURL: "https://www.techbyjr.com/" # IMPORTANT: Change this to your final website URL
 languageCode: "en-us"
 title: "Tech by J.R."
 theme: "PaperMod"
