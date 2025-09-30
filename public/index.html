@@ -1,206 +1,89 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
 
-<head>
-	<meta name="generator" content="Hugo 0.150.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Tech by J.R.</title>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/12.3.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/12.3.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/12.3.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a090830a421002426baafbd314e38f149d77b4c48a12ee9312700d770b27fb26.css" integrity="sha256-oJCDCkIQAkJrqvvTFOOPFJ13tMSKEu6TEnANdwsn&#43;yY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
-<link rel="alternate" type="application/json" href="http://localhost:1313/index.json" title="json">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
     </style>
-</noscript>
-</head>
-
-<body class="list dark" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Tech by J.R. (Alt + H)">Tech by J.R.</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/posts" title="Archive">
-                    <span>Archive</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/tags" title="Tags">
-                    <span>Tags</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/search" title="Search">
-                    <span>Search</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>Hi there, I&rsquo;m Jose Rodriguez</h1>
-    </header>
-    <div class="entry-content">
-        Welcome to my IT Blog! I write about different information technology capabilities that can be used from different platforms for inexpense or sometimes for no cost at all. We provide the best understandable conent for no cost while giving projects that can be shared today.
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
-</div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
 
-    </footer>
-</article>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Device preparation
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>IT at the Speed of You Series Hello and welcome to the IT at the Speed of You Series: Device prepartion article. A benefit to this series is being able to obtain a viable resume entry that will provide a better opportunity at being approached for a new job in the IT field.
-iPhone The first device we will provide content on will be the iPhone. Many IT personnel may feel that the iPhone is unable to perform the needed IT tasks to allow for the device to be considered a viable technological asset in the IT personnel realm. My experience has been that even though there are limitations even with these limitations the iPhone can be used for many advanced features with different platforms allowing what the iPhone lacks locally to be made up with approved applications.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-28 17:15:39 -0400 EDT'>September 28, 2025</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>Jose Rodriguez Junior</span></footer>
-  <a class="entry-link" aria-label="post link to Device preparation" href="http://localhost:1313/posts/preparing-your-device/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Learning IT today
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>IT at the Speed of You Series Hello and welcome to taking your first step in learning IT today to fit your busy life.
-Prerequisites First, we will cover our prerequisites for learning IT from your chosen device today. The prerequisites are as follows:
-Consistent internet connection – This can be a cell phone, a mobile hotspot, home Wi-Fi, or public Wi-Fi. Modern email – This means you have an email from an email provider such as Gmail, Outlook, and other emails that have advanced security features that will be discussed at a later time. Unlimited data – We will be using the internet extensively, and if you’re limited on internet connectivity, it would be a good idea to visit public places like the local library or a franchise eatery such as Starbucks. We will cover ways to increase your security profile while using these public locations. It’s also understood that there are multiple devices that have simple differences. We will cover a complete concept and then provide a tailored “how-to,” such as our next article, which will be Create a Webpage Today.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-28 17:06:00 -0400 EDT'>September 28, 2025</span>&nbsp;·&nbsp;<span>2 min</span>&nbsp;·&nbsp;<span>Jose Rodriguez Junior</span></footer>
-  <a class="entry-link" aria-label="post link to Learning IT today" href="http://localhost:1313/posts/getting-started-today/"></a>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/">Tech by J.R.</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
         }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
+      });
+    </script>
+  </body>
 </html>
