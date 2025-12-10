@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:39635/posts/modern-email/</loc>
+    <lastmod>2025-12-07T12:08:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:39635/posts/getting-started/</loc>
+    <lastmod>2025-11-20T16:51:23-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:39635/posts/</loc>
+    <lastmod>2025-12-07T12:08:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:39635/</loc>
+    <lastmod>2025-12-07T12:08:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:39635/about/</loc>
+    <lastmod>2025-11-18T16:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:39635/contact/</loc>
+    <lastmod>2025-11-18T16:30:00-05:00</lastmod>
+  </url><url>
+    <loc>http://localhost:39635/categories/</loc>
+  </url><url>
+    <loc>http://localhost:39635/search/</loc>
+  </url><url>
+    <loc>http://localhost:39635/tags/</loc>
+  </url>
+</urlset>

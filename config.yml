@@ -1,0 +1,63 @@
+baseURL: "https://www.techbyjr.com/"
+languageCode: "en-us"
+title: "Tech by JR"
+theme: "PaperMod"
+
+# Enable Hugo JSON Search
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    # 📝 Site Identity/General
+    defaultTheme: auto
+    disableThemeToggle: false
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+
+    # 🏠 Homepage Configuration
+    homeInfoParams:
+        Title: "Hi, I'm Jose Rodriguez Junior."
+        Content: |
+            Welcome to **Tech by JR**! I cover a range of interests, from the high-tech world of **lightweight computing** to my passions in **weightlifting** and **motorcycles**. If you've been here before then you will know where you're going or maybe you'd like an idea from our [Projects](/content/projects/) page. If this is your first time here then I would recommend taking a peek at our [Getting Started](/posts/getting-started/) series which provides step by step instructions on how to go from little to no information technology understanding to having the ability to understand complex concepts with ease. Well if you're ready click [here](/posts/getting-started/) to be taken to the getting started article.
+
+    # 🔗 Social/Contact Links (Only email for the contact page requirement)
+    socialIcons:
+        - name: email
+          url: "mailto:info@techbyjr.com"
+
+    # 🔎 Search Configuration
+    fuseOpts:
+        isCaseSensitive: false
+        minMatchCharLength: 2
+        findAllMatches: false
+        keys: [ "Title", "Content", "Tags", "Categories" ]
+
+menu:
+    main:
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 10
+        - identifier: contact
+          name: Contact
+          url: /contact/
+          weight: 20
+        #- identifier: search
+        #  name: Search
+        #  url: /search/
+        #  weight: 30
+        #- identifier: tags
+        #  name: Tags
+        #  url: /tags/
+        #  weight: 40
+        #- identifier: archives
+        #  name: Archives
+        #  url: /archives/
+        #  weight: 50
+
