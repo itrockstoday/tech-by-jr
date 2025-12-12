@@ -33,5 +33,7 @@ We totally get it—every device is a little different! That's why we've designe
 
 Our very next article, **[Modern email](/posts/modern-email)** , is the perfect place to start!
 
-In that article, we'll thoroughly explore the concept of modern email, its security features, and some of the cool applications that come with it. These tools will help us review more complex concepts later on in an easy-to-understand way. We'll kick things off with the **Apple iPhone**, but please know that **all core concepts** will be clearly covered for devices like **Android handhelds, Android tablets, iPads,** and many others. We'll also leverage powerful **cloud capabilities** to ensure a useful, unified, and truly **exciting learning experience across *all* platforms!**
+In that article, we'll thoroughly explore the concept of modern email, its security features, and some of the cool applications that come with it. These tools will help us review more complex concepts later on in an easy-to-understand way. We'll kick things off with the **Apple iPhone**, but please know that **all core concepts** will be clearly covered for devices like **Android handhelds, Android tablets, iPads,** and many others. We'll also leverage powerful **cloud capabilities** to ensure a useful, unified, and truly  **exciting learning experience across *all* platforms!** 
+
+When you're ready click **[here](/posts/modern-email)**
 
