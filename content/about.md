@@ -1,7 +1,7 @@
 ---
 title: "About Tech by JR"
 date: 2025-11-18T16:30:00-05:00
-draft: true
+draft: false
 ---
 
 With over **18 years** of experience across a multitude of technologies, devices, and software, I bring a veteran's perspective to the world of IT.

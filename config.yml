@@ -44,12 +44,12 @@ menu:
           url: "/"
           weight: 1
         - identifier: about
-          name: About
-          url: /about/
+          name: "About"
+          url: "/about/"
           weight: 10
         - identifier: contact
-          name: Contact
-          url: /contact/
+          name: "Contact"
+          url: "/contact/"
           weight: 20
         #- identifier: search
         #  name: Search
