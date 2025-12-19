@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://www.techbyjr.com/"
 languageCode: "en-us"
 title: "Tech by JR"
 theme: "PaperMod"
@@ -40,6 +40,9 @@ params:
 
 menu:
     main:
+        - name: "Home"
+          url: "/"
+          weight: 1
         - identifier: about
           name: About
           url: /about/

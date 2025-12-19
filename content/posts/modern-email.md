@@ -40,9 +40,21 @@ We know our security-focused users might raise an eyebrow at a cloud service rec
 
 To ensure the instructions are consistent and flow smoothly, please use the **Google Chrome browser** for all activities. Using Safari may cause discrepancies.
 
-* **iPhone Users:** If you don't have Chrome, [click here to download the Google Chrome browser].
-* **Android Users:** You already have Chrome!
+* **iPhone Users:** If you don't have Chrome, [Click here](https://apps.apple.com/us/app/google-chrome/id535886823).
+* **Android Users:** You already have Chrome! and (Click here to be taken to the )
 
 Once you're logged in, we will begin by reviewing Google's integrated **password management** feature.
 
 > **Heads Up:** The initial visual instructions will focus on the **iPhone** interface. The Android-specific guide will follow soon after the iPhone article is published.
+
+Our first step will be to open Google Chrome
+
+(provide image here)
+
+Click the three dots to open the browser menu
+
+(provide image here)
+
+Click the password manager icon
+
+(provide image here)

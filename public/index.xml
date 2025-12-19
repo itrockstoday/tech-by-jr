@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech by JR</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Tech by JR</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Dec 2025 12:08:00 -0500</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modern Email</title>
-      <link>//localhost:1313/posts/modern-email/</link>
+      <link>http://localhost:1313/posts/modern-email/</link>
       <pubDate>Sun, 07 Dec 2025 12:08:00 -0500</pubDate>
-      <guid>//localhost:1313/posts/modern-email/</guid>
+      <guid>http://localhost:1313/posts/modern-email/</guid>
       <description>&lt;h2 id=&#34;-hi-and-welcome-back-to-your-it-journey&#34;&gt;👋 Hi and welcome back to your IT Journey!&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s continue by diving into the exciting world of &lt;strong&gt;Modern email&lt;/strong&gt;. We&amp;rsquo;re thrilled to have you! Before we blast off, let&amp;rsquo;s quickly make sure you have a few simple, essential items right on your chosen device. Think of these as your basic travel kit for our adventure!&lt;/p&gt;
 &lt;h3 id=&#34;-your-essential-prerequisites&#34;&gt;🚀 Your Essential Prerequisites&lt;/h3&gt;
@@ -20,9 +20,9 @@
     </item>
     <item>
       <title>Learning IT today</title>
-      <link>//localhost:1313/posts/getting-started/</link>
+      <link>http://localhost:1313/posts/getting-started/</link>
       <pubDate>Thu, 20 Nov 2025 16:51:23 -0500</pubDate>
-      <guid>//localhost:1313/posts/getting-started/</guid>
+      <guid>http://localhost:1313/posts/getting-started/</guid>
       <description>&lt;h2 id=&#34;-welcome-to-your-it-journey&#34;&gt;👋 Welcome to Your IT Journey!&lt;/h2&gt;
 &lt;p&gt;Ready to dive into the exciting world of &lt;strong&gt;Information Technology&lt;/strong&gt;? We&amp;rsquo;re thrilled to have you! Before we blast off, let&amp;rsquo;s quickly make sure you have a few simple, essential items right on your chosen device. Think of these as your basic travel kit for our adventure!&lt;/p&gt;
 &lt;hr&gt;
@@ -31,9 +31,9 @@
     </item>
     <item>
       <title>About Tech by JR</title>
-      <link>//localhost:1313/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 18 Nov 2025 16:30:00 -0500</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;With over &lt;strong&gt;18 years&lt;/strong&gt; of experience across a multitude of technologies, devices, and software, I bring a veteran&amp;rsquo;s perspective to the world of IT.&lt;/p&gt;
 &lt;p&gt;My knowledge base is formally backed by certifications including:&lt;/p&gt;
 &lt;ul&gt;
@@ -44,9 +44,9 @@
     </item>
     <item>
       <title>Contact Tech by JR</title>
-      <link>//localhost:1313/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Tue, 18 Nov 2025 16:30:00 -0500</pubDate>
-      <guid>//localhost:1313/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>&lt;p&gt;The best way to reach me for questions, suggestions, or collaborations is via email:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;mailto:info@techbyjr.com&#34;&gt;info@techbyjr.com&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
